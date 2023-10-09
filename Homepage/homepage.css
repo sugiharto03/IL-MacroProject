@@ -1,0 +1,32 @@
+* {
+  font-family: "Public Sans", sans-serif;
+}
+:root{
+  --main-color: #f6f8eb;
+  --top-bar: #30A2FF;
+  --showcase: #FFF5B8;
+  --font-primary: #1C658C;
+}
+body{
+  background-color: var(--main-color);
+}
+
+/* navbar */
+.top-bar{
+  background-color: var(--top-bar);
+  font-size: 15px;
+}
+.top-bar p{
+  padding: 5px;
+  margin: 0;
+}
+
+/* showcase */
+.showcase{
+  background-color: var(--showcase);
+}
+.showcase h1{
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--font-primary);
+}
