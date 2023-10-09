@@ -6,6 +6,7 @@
   --top-bar: #30A2FF;
   --showcase: #FFF5B8;
   --font-primary: #1C658C;
+  --font-secondary: #979797;
 }
 body{
   background-color: var(--main-color);
@@ -26,7 +27,15 @@ body{
   background-color: var(--showcase);
 }
 .showcase h1{
-  font-size: 3rem;
+  /* font-size: 3rem; */
   font-weight: 700;
   color: var(--font-primary);
+}
+.showcase button{
+  background-color: var(--font-primary);
+}
+
+/* sec-introduction */
+.sec-introduction p{
+  color: var(--font-secondary);
 }

@@ -28,7 +28,7 @@
   </head>
   <body>
     <!-- add-bar -->
-    <section class="text-light top-bar">
+    <section class="text-light top-bar d-none d-sm-block">
       <div class="container">
         <div class="row">
           <div class="col-md-2">
@@ -99,24 +99,26 @@
               </ul>
             </li>
           </ul>
-          <ul class="navbar-nav right-menu ms-auto">
-            <li class="nav-item d-sm-flex align-items-center">
-              <i class="bi bi-bag-check h5 mb-1 .d-sm-none .d-md-block"></i>
-              <span class="nav-link ms-0 me-2"
-                ><a class="text-decoration-none text-dark" href=""
-                  >Simpan</a
-                ></span
-              >
-            </li>
-            <li class="nav-item d-sm-flex align-items-center">
-              <i class="bi bi-person-fill h5 mb-1 .d-sm-none .d-md-block"></i>
-              <span class="nav-link ms-0"
-                ><a class="text-decoration-none text-dark" href=""
-                  >Akun</a
-                ></span
-              >
-            </li>
-          </ul>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav right-menu ms-auto">
+              <li class="nav-item d-sm-flex align-items-center">
+                <i class="bi bi-bag-check h5 mb-1 d-sm-none d-md-block"></i>
+                <span class="nav-link ms-0 me-2"
+                  ><a class="text-decoration-none text-dark" href=""
+                    >Simpan</a
+                  ></span
+                >
+              </li>
+              <li class="nav-item d-sm-flex align-items-center">
+                <i class="bi bi-person-fill h5 mb-1 d-sm-none d-md-block"></i>
+                <span class="nav-link ms-0"
+                  ><a class="text-decoration-none text-dark" href=""
+                    >Akun</a
+                  ></span
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -126,21 +128,76 @@
       <div class="container">
         <div class="d-sm-flex justify-content-center align-items-center">
           <div>
-            <h1>Tinggal Hitungan Menit Rebut Elektronikmu!</h1>
-            <button type="button" class="btn-lg btn-primary">Sekarang</button>
+            <h1 class="mb-4 display-4">
+              Tinggal Hitungan Menit Rebut Elektronikmu!
+            </h1>
+            <button type="button" class="btn btn-lg text-light px-4 mb-4">
+              Sekarang
+            </button>
           </div>
-          <div class="text-center">
+          <div class="text-center w-75">
             <img
               src="img/showcase-pict.png"
               alt="showcase"
               width="300"
-              class="img-fluid w-50 d-none d-sm-block mx-auto"
+              class="img-fluid d-none d-sm-block mx-auto"
             />
           </div>
         </div>
       </div>
     </section>
-    
+
+    <section class="text-center sec-introduction mt-5">
+      <div class="container">
+        <div>
+          <h1 class="display-7 mb-3">Punya Elektronik Bekas?</h1>
+          <p class="fw-light">
+            Nggak usah bingung mau di bawa kemana! Langsung pilih menu website
+            kita di atas, <br />
+            salurkan barang elektronikmu, jadi bermanfaat untuk orang lain.
+            Hanya di BarangKita!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <div class="card border-0" style="width: 22rem">
+              <img src="img/tukar.jpeg" class="card-img-top" alt="lelang" />
+              <div class="card-body">
+                <p class="card-title text-center fw-bold">Tukarin Aja!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card border-0" style="width: 22rem">
+              <img src="img/lelang.webp" class="card-img-top" alt="lelang" />
+              <div class="card-body">
+                <p class="card-title text-center fw-bold">Lelangin!</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card border-0" style="width: 22rem">
+              <img src="img/donasi.webp" class="card-img-top" alt="lelang" />
+              <div class="card-body">
+                <p class="card-title text-center fw-bold">Donasi juga boleh</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
