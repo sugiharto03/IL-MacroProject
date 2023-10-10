@@ -1,41 +1,47 @@
 * {
   font-family: "Public Sans", sans-serif;
 }
-:root{
+:root {
   --main-color: #f6f8eb;
-  --top-bar: #30A2FF;
-  --showcase: #FFF5B8;
-  --font-primary: #1C658C;
+  --top-bar: #30a2ff;
+  --showcase: #fff5b8;
+  --font-primary: #1c658c;
   --font-secondary: #979797;
 }
-body{
+body {
   background-color: var(--main-color);
 }
 
 /* navbar */
-.top-bar{
+.top-bar {
   background-color: var(--top-bar);
   font-size: 15px;
 }
-.top-bar p{
+.top-bar p {
   padding: 5px;
   margin: 0;
 }
 
 /* showcase */
-.showcase{
+.showcase {
   background-color: var(--showcase);
 }
-.showcase h1{
+.showcase h1 {
   /* font-size: 3rem; */
   font-weight: 700;
   color: var(--font-primary);
 }
-.showcase button{
+.showcase button {
   background-color: var(--font-primary);
 }
 
 /* sec-introduction */
-.sec-introduction p{
+.sec-introduction p {
   color: var(--font-secondary);
 }
+
+.rd-box {
+  padding-bottom: 18rem;
+  background-color: var(--top-bar);
+}
+
