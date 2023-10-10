@@ -8,6 +8,8 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
+
+/* NAVBAR */
 #navbar {
     min-height: 100px;
 }
@@ -62,6 +64,7 @@ nav {
 }
 
 
+/* LELANG CONTENT */
 /* Lelang Content-Header */
 .content-header {
     width: 100%;
@@ -296,18 +299,37 @@ nav {
 
 
 /* FOOTER */
-/* #footer {
-    background-color: #1E1E1E;
-    color: #ffffff;
-} */
 
 #footer {
-    background-color: #00C4FF;
+    background-color: #1E1E1E;
     margin-top: 50px;
     padding-top: 1px;
+    color: #ffffff;
 }
 
-footer {
-    margin-top: 10px;
-    border-top: 1px solid black;
+#footer a {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#formFooter h5 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+#formFooter p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#linkFooter h5 {
+    font-size: 18px;
+    font-weight: 600px;
+}
+
+#linkFooter ul {
+    margin-top: 30px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
 }

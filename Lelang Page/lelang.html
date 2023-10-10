@@ -38,8 +38,8 @@
             </div>
 
             <div class="nav py-1">
-                <a class="navbar-brand"><img src="../assets/lelangPage/vertical-logo.png" alt="" height="auto"
-                        width="70"></a>
+                <a class="navbar-brand"><img src="../assets/lelangPage/horizontal-logo.png" alt="" height="auto"
+                        width="180"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -351,48 +351,62 @@
 
     <section id="footer">
         <div class="container">
-            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
-                <div class="col mb-3">
-                    <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
-                        <img src="../assets/lelangPage/msi katana gf66.jpeg" alt="" width="40" height="32">
-                    </a>
-                    <p class="text-body-secondary">&copy; 2023</p>
+            <footer class="py-5">
+                <div class="row d-flex justify-content-between">
+                    <div class="col-md-5 mb-3">
+                        <form id="formFooter">
+                            <h5>Daftarlah Untuk Buletin Kami</h5>
+                            <p>Jadilah orang pertama yang mengetahui penawaran khusus, berita, dan pembaruan kami.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary" type="button">Daftar</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3" id="linkFooter">
+                        <h5>Barang Bekas</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Donasi</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Tukar</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Lelang</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3" id="linkFooter">
+                        <h5>Akun</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Kelola Akun</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Ganti Password</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Verifikasi</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Kupon</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Reward</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3" id="linkFooter">
+                        <h5>Dukungan</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Keamanan</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Masukan</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Laporkan</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link p-0">Aksebilitas</a></li>
+                        </ul>
+                    </div>
+
                 </div>
 
-                <div class="col mb-3">
-
-                </div>
-
-                <div class="col mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                    </ul>
-                </div>
-
-                <div class="col mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-                    </ul>
-                </div>
-
-                <div class="col mb-3">
-                    <h5>Section</h5>
-                    <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+                    <p>&copy; 2023 Donatech, Infinite Learning. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram" />
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook" />
+                                </svg></a></li>
                     </ul>
                 </div>
             </footer>
