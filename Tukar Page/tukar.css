@@ -1,0 +1,23 @@
+* {
+    font-family: "Public Sans", sans-serif;
+  }
+  :root{
+    --main-color: #f6f8eb;
+    --top-bar: #30A2FF;
+    --showcase: #FFF5B8;
+    --font-primary: #1C658C;
+    --font-secondary: #979797;
+  }
+  body{
+    background-color: var(--main-color);
+  }
+
+  /* navbar */
+  .top-bar{
+    background-color: var(--top-bar);
+    font-size: 15px;
+  }
+  .top-bar p{
+    padding: 5px;
+    margin: 0;
+  }
