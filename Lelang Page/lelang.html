@@ -63,14 +63,9 @@
                                     Kategori
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider" />
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
+                                    <li><a class="dropdown-item" href="#">Elektronik Berat</a></li>
+                                    <li><a class="dropdown-item" href="#">Elektronik Gadget</a></li>
+                                    <li><a class="dropdown-item" href="#">Elektronik Rumah Tangga</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -91,7 +86,7 @@
     <section id="content">
         <!-- Content Header -->
         <div class="content-header mt-4">
-            <div class="box">
+            <div class="box" id="contentBox">
                 <p>Lelang barangmu sekarang!</p>
                 <span class="garis"></span>
                 <p>"Punya barang tidak terpakai? Lelang saja barangmu disini"</p>
@@ -232,7 +227,7 @@
                         <div class="box-product-left d-flex">
                             <p>Cari Produk</p>
                             <div class="box-search">
-                                <input type="text" id="searchBar">
+                                <input type="text" id="searchBar" onkeypress="resetSearch(event)">
                                 <label for="searchBar">
                                     <i class="bi bi-search"></i>
                                 </label>
@@ -248,8 +243,9 @@
                                 <span class="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Terbaru</a></li>
-                                <li><a class="dropdown-item" href="#">Paling Sering Dicari</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeHighlight(this)">Terbaru</a></li>
+                                <li><a class="dropdown-item" href="#" onclick="changeHighlight(this)">Paling Sering
+                                        Dicari</a></li>
                             </ul>
                         </div>
                     </div>
@@ -257,8 +253,10 @@
                         <div class="row row-cols-1 row-cols-md-3 g-4">
                             <div class="col">
                                 <div class="card">
-                                    <img src="../assets/lelangPage/mesinCuci.jpeg" class="card-img-top"
-                                        alt="Mesin Cuci">
+                                    <div class="card-img">
+                                        <img src="../assets/lelangPage/mesinCuci.jpeg" class="card-img-top"
+                                            alt="Mesin Cuci">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Mesin Cuci Polytron</h5>
                                         <p class="card-text">Rp. 700.000</p>
@@ -270,9 +268,11 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
-                                    <img src="../assets/lelangPage/tv samsung 4k.jpeg" class="card-img-top"
-                                        alt="TV Samsung">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../assets/lelangPage/tv samsung 4k.jpeg" class="card-img-top"
+                                            alt="TV Samsung">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">TV Samsung 50 Inch 4k</h5>
                                         <p class="card-text">Rp. 3.000.000</p>
@@ -284,9 +284,11 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
-                                    <img src="../assets/lelangPage/msi katana gf66.jpeg" class="card-img-top"
-                                        alt="Laptop MSI">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../assets/lelangPage/msi katana gf66.jpeg" class="card-img-top"
+                                            alt="Laptop MSI">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">MSI Katana GF66</h5>
                                         <p class="card-text">Rp. 10.000.000</p>
@@ -298,9 +300,11 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
-                                    <img src="../assets/lelangPage/samsung z flip 3.jpeg" class="card-img-top"
-                                        alt="Samsung Z Flip 3">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../assets/lelangPage/samsung z flip 3.jpeg" class="card-img-top"
+                                            alt="Samsung Z Flip 3">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Samsung Z Flip 3</h5>
                                         <p class="card-text">Rp. 3.000.000</p>
@@ -312,9 +316,11 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
-                                    <img src="../assets/lelangPage/kulkas samsung.jpeg" class="card-img-top"
-                                        alt="Kulkas Samsung">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../assets/lelangPage/kulkas samsung.jpeg" class="card-img-top"
+                                            alt="Kulkas Samsung">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Kulkas Samsung 2 Pintu</h5>
                                         <p class="card-text">Rp. 3.500.000</p>
@@ -326,9 +332,11 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <div class="card h-100">
-                                    <img src="../assets/lelangPage/ipad air 5.jpeg" class="card-img-top"
-                                        alt="Ipad Air 5">
+                                <div class="card">
+                                    <div class="card-img">
+                                        <img src="../assets/lelangPage/ipad air 5.jpeg" class="card-img-top"
+                                            alt="Ipad Air 5">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Ipad Air 5</h5>
                                         <p class="card-text">Rp. 4.000.000</p>
