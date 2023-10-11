@@ -66,17 +66,7 @@ nav {
 
 /* TUKAR CONTENT */
 /* Tukar Content-Header */
-.title
-{
 
-}
-
-.title-desc p:nth-child(1)
-{
-  font-size: 36px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
 
 .content-header {
     width: 100%;
