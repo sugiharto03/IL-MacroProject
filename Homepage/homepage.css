@@ -8,8 +8,9 @@
   --font-primary: #1c658c;
   --font-secondary: #979797;
 }
-body {
-  background-color: var(--main-color);
+body,
+.b-color {
+  background-color: var(--main-color) !important;
 }
 
 /* navbar */
@@ -36,11 +37,11 @@ body {
 }
 
 /* sec-introduction */
-.features-desc p {
+.features-desc .desc {
   color: var(--font-secondary);
 }
 
-.product-container{
+.product-container {
   height: 50em;
 }
 .product {
@@ -48,4 +49,26 @@ body {
   height: 30em;
   background-image: url(img/background-blue.png);
   border-radius: 5px;
+}
+
+.catalog p,
+.catalog-item p {
+  color: var(--font-secondary);
+}
+.catalog button {
+  background-color: var(--main-color);
+  color: var(--top-bar);
+  border: 1px solid var(--top-bar);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.catalog button:hover {
+  background-color: var(--top-bar);
+  color: white;
+  border: 1px solid var(--top-bar);
 }
