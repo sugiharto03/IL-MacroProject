@@ -79,17 +79,23 @@ nav {
     height: auto;
 }
 
+.content-top {
+    width: 100%;
+}
+
+.content-top h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.content-top p {
+    font-size: 16px;
+    font-weight: 400;
+}
 
 .chart-left {
     width: 55%;
     height: auto;
-}
-
-.chart-left img{
-    width: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .title {
@@ -117,6 +123,11 @@ nav {
     font-weight: 600;
 }
 
+.card-body dl {
+    font-size: 14px;
+    font-weight: 400;
+}
+
 .card-line {
     display: flex;
     width: 100%;
@@ -125,7 +136,7 @@ nav {
 }
 
 .chart-right {
-    width: 45%;
+    width: 35%;
 }
 
 .chart-right .kupon {
@@ -166,34 +177,10 @@ nav {
     margin-bottom: 15px;
 }
 
-.row .col img{
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    margin-right: 0px;
-}
 
-.col p{
-    display: flex;
-    justify-content: left;
-    margin-left: 0px;
-}
 
-#ikuti{
-    width: 100%;
-    height: 45px;
-    background-color: #e8f9fd;
-    color: #00c4ff;
-    border-radius: 10%;
-    border-width: 3px;
-    border-color: #00c4ff;
-}
 
-#donasi{
-    width: 100%;
-    background-color: #30A2FF;
-    color: #e8f9fd;
-}
+
 
 
 
