@@ -8,8 +8,6 @@ body {
     font-family: 'Public Sans', sans-serif;
 }
 
-
-/* NAVBAR */
 #navbar {
     min-height: 100px;
 }
@@ -63,11 +61,6 @@ nav {
     padding: 0px 7px 0px 0px;
 }
 
-
-
-
-/* Konten */
-/* Kontent Utama */
 #content {
     width: 100%;
     display: flex;
@@ -176,24 +169,6 @@ nav {
     font-weight: 600;
     margin-bottom: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
 
 #footer {
     background-color: #1E1E1E;
