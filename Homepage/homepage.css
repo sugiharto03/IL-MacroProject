@@ -26,6 +26,7 @@ body,
 /* showcase */
 .showcase {
   background-color: var(--showcase);
+  padding-top: 10rem;
 }
 .showcase h1 {
   /* font-size: 3rem; */
@@ -71,4 +72,102 @@ body,
   background-color: var(--top-bar);
   color: white;
   border: 1px solid var(--top-bar);
+}
+
+.product-lelang i {
+  margin-right: 5px;
+}
+.product-lelang .locate-icon {
+  margin-right: 8px;
+}
+.product-lelang .price {
+  color: var(--font-primary);
+  font-weight: 700;
+}
+
+/* footer */
+#footer {
+  background-color: #1e1e1e;
+  margin-top: 50px;
+  padding-top: 1px;
+  color: #ffffff;
+}
+
+#footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#formFooter h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#formFooter p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#linkFooter h5 {
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+#linkFooter ul {
+  margin-top: 30px;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* about us */
+.header {
+  width: 100%;
+  min-height: 20rem;
+  background-image: url(img/header-aboutUs.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 7em;
+}
+.header-top {
+  background-color: var(--font-primary);
+  border-radius: 5px;
+  margin-top: -9em;
+  padding: 120px;
+}
+
+/* inventory */
+.starting {
+  margin-top: 7em;
+}
+.invent {
+  width: 100%;
+  height: 30em;
+  background-image: url(img/inven-back.png);
+  border-radius: 5px;
+  margin-bottom: 20em;
+}
+
+/* form */
+.inputform {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 10em;
+  background-color: #f6f1e9;
+  padding: 5em 5em;
+}
+
+/* map */
+.map-container-2 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.map-container-2 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
