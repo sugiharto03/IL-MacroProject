@@ -211,10 +211,6 @@ nav {
     margin-top: 20px;
   }
   
-  .chart-right {
-    width: 35%;
-  }
-  
   .chart-right-line {
     display: flex;
     width: 100%;
