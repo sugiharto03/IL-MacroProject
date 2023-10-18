@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&display=swap");
+
+body {
+  width: 100%;
+  height: 200vh;
+  background-color: #e8f9fd;
+  font-family: "Public Sans", sans-serif;
+}
+
+/* NAVBAR */
+#navbar {
+  min-height: 100px;
+}
+
+.header {
+  width: 100%;
+  background-color: #30a2ff;
+}
+
+.header-item {
+  width: 80%;
+}
+
+.header-item ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header-item ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+nav {
+  top: 0;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+  width: 80%;
+  gap: 30px;
+}
+
+.navContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navContent ul li {
+  margin: 0px 8px;
+}
+
+#rightNav i {
+  font-size: 20px;
+  padding: 0px 7px 0px 0px;
+}
+
+/* Konten */
+/* Kontent Utama */
+#content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 80%;
+  height: auto;
+}
+
+.content-top {
+  width: 100%;
+}
+
+.content-top h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.content-top p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.chart-left {
+  width: 55%;
+  height: auto;
+}
+
+.title {
+  width: 100%;
+  height: 52px;
+  background: #00c4ff;
+  background: linear-gradient(0deg, #00c4ff 0%, #ffffff 100%);
+  background: -webkit-linear-gradient(0deg, #00c4ff 0%, #ffffff 100%);
+  background: -moz-linear-gradient(0deg, #00c4ff 0%, #ffffff 100%);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.25);
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px;
+}
+
+.chart-left .card {
+  background-color: transparent;
+  border: none;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.card-body dl {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-line {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
+
+.chart-right {
+  width: 35%;
+}
+
+.chart-right .kupon {
+  width: 100%;
+  height: 40px;
+  border: 2px solid black;
+  background: transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.chart-right-line {
+  display: flex;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.chart-right .btn {
+  width: 100%;
+  border-radius: 0px;
+  height: 45px;
+}
+
+.content-bottom {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 55%;
+}
+
+.content-bottom h1 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.swap img {
+  width: 50px;
+  height: 50px;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #1e1e1e;
+  margin-top: 50px;
+  padding-top: 1px;
+  color: #ffffff;
+}
+
+#footer a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#formFooter h5 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+#formFooter p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#linkFooter h5 {
+  font-size: 18px;
+  font-weight: 600px;
+}
+
+#linkFooter ul {
+  margin-top: 30px;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
