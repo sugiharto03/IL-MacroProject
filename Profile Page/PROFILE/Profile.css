@@ -1,31 +1,66 @@
-* {
+body {
+  width: 100%;
+  background-color: #e8f9fd !important;
   font-family: "Public Sans", sans-serif;
 }
 
-:root {
-  --main-color: #f6f8eb;
-  --top-bar: #30a2ff;
-  --showcase: #fff5b8;
-  --font-primary: #1c658c;
-  --font-secondary: #979797;
+/* NAVBAR */
+#navbar {
+  min-height: 100px;
 }
 
-body {
-  background-color: var(--main-color);
+.header {
+  width: 100%;
+  background-color: #30a2ff;
 }
 
-/* navbar */
-.top-bar {
-  background-color: var(--top-bar);
-  font-size: 15px;
+.header-item {
+  width: 80%;
 }
 
-.top-bar p {
-  padding: 5px;
-  margin: 0;
+.header-item ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
 }
 
+.header-item ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
 
+nav {
+  top: 0;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+  width: 80%;
+  gap: 30px;
+}
+
+.navContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navContent ul li {
+  margin: 0px 8px;
+}
+
+#rightNav i {
+  font-size: 20px;
+  padding: 0px 7px 0px 0px;
+}
+
+.nav-link {
+  color: #212121 !important;
+  font-weight: 600;
+}
 
 /* Content */
 #content {
@@ -90,11 +125,10 @@ body {
   color: #ffffff;
 }
 
-
 .profile-side-mid {
   width: 100%;
   height: 15%;
-  background-color: #FFE7A0;
+  background-color: #ffe7a0;
   box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
@@ -155,6 +189,9 @@ body {
   width: 72%;
   border-radius: 10px;
   background-color: rgba(206, 206, 206, 0.25);
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .profile-main-top img {
@@ -166,9 +203,9 @@ body {
 #capture {
   font-size: 35px;
   position: absolute;
-  top: 380px;
-  left: 650px;
-  color: #4594d5;
+  top: 385px;
+  left: 770px;
+  color: black;
 }
 
 .profile-main-top a {

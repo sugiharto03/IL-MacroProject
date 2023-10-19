@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600&display=swap");
+
+body {
+  width: 100%;
+  height: 200vh;
+  background-color: #e8f9fd !important;
+  font-family: "Public Sans", sans-serif !important;
+}
+
+/* NAVBAR */
+#navbar {
+  min-height: 100px;
+}
+
+.header {
+  width: 100%;
+  background-color: #30a2ff;
+}
+
+.header-item {
+  width: 80%;
+}
+
+.header-item ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.header-item ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+nav {
+  top: 0;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.25);
+}
+
+.nav {
+  width: 80%;
+  gap: 30px;
+}
+
+.nav a {
+  color: #000000 !important;
+  font-size: 600 !important;
+}
+
+.navContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navContent ul li {
+  margin: 0px 8px;
+}
+
+#rightNav i {
+  font-size: 20px;
+  padding: 0px 7px 0px 0px;
+}
+
+/* Content */
+.inputForm {
+  width: 100%;
+}
+
+.content-form {
+  width: 60%;
+  padding: 50px 150px 50px 150px;
+  background-color: #ffefbe;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}

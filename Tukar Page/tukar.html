@@ -1,357 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BarangKita | Tukar</title>
-    <link rel="icon" href="/Tukar Page/tukar_assets/icon.png" type="image/x-icon" />
 
-    <!-- Link BootStrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-    <!-- Link Css -->
-    <link rel="stylesheet" href="tukar.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BarangKita | Tukar</title>
+  <link rel="icon" href="/assets/lelangPage/Group 7.png" type="image/x-icon" />
 
-  <body>
-    <!-- Navbar -->
-    <section id="navbar">
-      <nav class="navbar navbar-expand-lg fixed-top d-flex justify-content-center flex-column py-0">
-        <!-- Header -->
-        <div class="header d-flex justify-content-center">
-          <div class="header-item">
-            <ul class="navbar-nav mb-2 mb-lg-0 py-2">
-              <li>
-                <a>IDR</a>
-              </li>
-              <li>
-                <a>DAPATKAN PROMO PENGGUNA BARU HINGGA 50% FEB. 25-28.</a>
-              </li>
-              <li>
-                <a href="../Homepage/about-us.html">Tentang Kami</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <!-- Link BootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+  <!-- Link Css -->
+  <link rel="stylesheet" href="tukar.css" />
+</head>
 
-        <div class="nav py-1">
-          <a class="navbar-brand" href="/Homepage/homepage.html"><img src="tukar_assets/horizontal-logo.png" alt="" height="auto" width="180" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse fw-semibold" id="navbarSupportedContent">
-            <div class="navContent">
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="/Lelang Page/lelang.html">Lelang</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="/Donasi Page/donasi.html">Donasi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Tukar</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Kategori </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Elektronik Berat</a></li>
-                    <li><a class="dropdown-item" href="#">Elektronik Gadget</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Elektronik Rumah Tangga</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-              <ul class="navbar-nav mb-2 mb-lg-0" id="rightNav">
-                <li class="nav-item">
-                  <a class="nav-link active" href="../Homepage/inventory.html"><i class="bi bi-bag"></i>Simpan</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="/Profile Page/PROFILE/Profile.html"><i class="bi bi-person"></i>Akun</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </section>
-
-    <section id="content">
-      <!-- Content Header -->
-      <div class="content-header mt-4">
-        <div class="box">
-          <p>Ayo tukarkan barangmu sekarang!</p>
-          <span class="garis"></span>
-          <p>"Barangmu berdebu, tukar dengan kebutuhanmu"</p>
-          <a href="../Homepage/formLelang.html">Tukar</a>
+<body>
+  <!-- Navbar -->
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg fixed-top d-flex justify-content-center flex-column py-0">
+      <!-- Header -->
+      <div class="header d-flex justify-content-center">
+        <div class="header-item">
+          <ul class="navbar-nav mb-2 mb-lg-0 py-2">
+            <li>
+              <a>IDR</a>
+            </li>
+            <li>
+              <a>DAPATKAN PROMO PENGGUNA BARU HINGGA 50% FEB. 25-28.</a>
+            </li>
+            <li>
+              <a href="../Homepage/about-us.html">Tentang Kami</a>
+            </li>
+          </ul>
         </div>
       </div>
 
-      <!-- Content Body -->
-      <div class="content-body">
-        <div class="box d-flex justify-content-between">
-          <div class="box-filter">
-            <div class="box-filter-top d-flex justify-content-between align-items-baseline">
-              <p>Filter</p>
-              <a href="#" class="hapusFilter" id="removeFilter">Hapus Filter</a>
-            </div>
-            <div class="box-filter-content mt-1">
-              <p class="m-0">Kategori</p>
-              <hr />
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="firstCategory" />
-                  <label class="form-check-label stretched-link" for="firstCategory">Peralatan Rumah</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="secondCategory" />
-                  <label class="form-check-label stretched-link" for="secondCategory">Gadget</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="thirdCategory" />
-                  <label class="form-check-label stretched-link" for="thirdCategory">Mesin Industri</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="fourthCategory" />
-                  <label class="form-check-label stretched-link" for="fourthCategory">Suku Cadang</label>
-                </li>
-              </ul>
-            </div>
-            <div class="box-filter-content mt-3">
-              <p class="m-0">Ongkir</p>
-              <hr />
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="firstOngkir" />
-                  <label class="form-check-label stretched-link" for="firstOngkir">Bebas Ongkir</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="secondOngkir" />
-                  <label class="form-check-label stretched-link" for="secondOngkir">JNE</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="thirdOngkir" />
-                  <label class="form-check-label stretched-link" for="thirdOngkir">SiCepat</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="fourthOngkir" />
-                  <label class="form-check-label stretched-link" for="fourthOngkir">Kantor Pos</label>
-                </li>
-              </ul>
-            </div>
-            <div class="box-filter-content mt-3">
-              <p class="m-0">Durasi Pengiriman</p>
-              <hr />
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="firstDelivery" />
-                  <label class="form-check-label stretched-link" for="firstDelivery">Instant</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="secondDelivery" />
-                  <label class="form-check-label stretched-link" for="secondDelivery">Same Day</label>
-                </li>
-              </ul>
-            </div>
-            <div class="box-filter-content mt-3">
-              <p class="m-0">Lokasi</p>
-              <hr />
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="firstLocation" />
-                  <label class="form-check-label stretched-link" for="firstLocation">Terdekat</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="secondLocation" />
-                  <label class="form-check-label stretched-link" for="secondLocation">Jakarta</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="thirdLocation" />
-                  <label class="form-check-label stretched-link" for="thirdLocation">Bandung</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="fourthLocation" />
-                  <label class="form-check-label stretched-link" for="fourthLocation">Bogor</label>
-                </li>
-              </ul>
-            </div>
-            <div class="box-filter-content mt-3">
-              <p class="m-0">Kondisi</p>
-              <hr />
-              <ul class="list-group">
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="firstCondition" />
-                  <label class="form-check-label stretched-link" for="firstCondition">Bekas</label>
-                </li>
-                <li class="list-group-item">
-                  <input class="form-check-input me-1" type="checkbox" value="" id="secondCondition" />
-                  <label class="form-check-label stretched-link" for="secondCondition">Bergaransi</label>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="box-product">
-            <div class="box-product-head d-flex align-items-start justify-content-between pt-2">
-              <div class="box-product-left d-flex">
-                <p>Cari Produk</p>
-                <div class="box-search">
-                  <input type="text" id="searchBar" />
-                  <label for="searchBar">
-                    <i class="bi bi-search"></i>
-                  </label>
-                </div>
-              </div>
-              <!-- Example split danger button -->
-              <div class="btn-group">
-                <button type="button" class="btn" id="titleButton">Urutkan dari <span id="highlight-text">Terbaru</span></button>
-                <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
-                  <span class="visually-hidden">Toggle Dropdown</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Terbaru</a></li>
-                  <li><a class="dropdown-item" href="#">Paling Sering Dicari</a></li>
+      <div class="nav py-1">
+        <a class="navbar-brand" href="/Homepage/homepage.html"><img src="tukar_assets/horizontal-logo.png" alt=""
+            height="auto" width="180" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse fw-semibold" id="navbarSupportedContent">
+          <div class="navContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/Lelang Page/lelang.html">Lelang</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/Donasi Page/donasi.html">Donasi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Tukar</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false"> Kategori </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Elektronik Berat</a></li>
+                  <li><a class="dropdown-item" href="#">Elektronik Gadget</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Elektronik Rumah Tangga</a>
+                  </li>
                 </ul>
-              </div>
-            </div>
-            <div class="box-product-content">
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                  <a href="productpage.html" class="text-decoration-none">
-                    <div class="card h-90">
-                      <img src="tukar_assets/Macbook Air M1 2020.png" class="card-img-top" alt="macbook" />
-                      <div class="card-body">
-                        <h5 class="card-title">Macbook Air M1 2020</h5>
-                        <p class="card-text fs-5">Gadget | <i class="bi bi-geo-alt-fill" style="margin-right: 10px"></i>Jakarta</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="col">
-                  <div class="card h-90">
-                    <img src="tukar_assets/Mesin Cuci.png" class="card-img-top" alt="mesin cuci" />
-                    <div class="card-body">
-                      <h5 class="card-title">Mesin Cuci Sharp T70MW-PK</h5>
-                      <p class="card-text fs-5">Mesin | <i class="bi bi-geo-alt-fill" style="margin-right: 10px"></i>Bandung</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-90">
-                    <img src="tukar_assets/Mesin Pembuat Mie KT-945.png" class="card-img-top" alt="Mesin Pembuat Mie" />
-                    <div class="card-body">
-                      <h5 class="card-title">Mesin Pembuat Mie KT-945</h5>
-                      <p class="card-text fs-5">Industri | <i class="bi bi-geo-alt-fill" style="margin-right: 10px"></i>Bogor</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card -9h0">
-                    <img src="tukar_assets/Samsung Galaxy Flip Z 5G.png" class="card-img-top" alt="Samsung Galaxy Flip Z 5G" />
-                    <div class="card-body">
-                      <h5 class="card-title">Samsung Galaxy Flip Z 5G</h5>
-                      <p class="card-text fs-5">Gadget | <i class="bi bi-geo-alt-fill" style="margin-right: 10px"></i>Jakarta Utara</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-90">
-                    <img src="tukar_assets/Rice Cooker.png" class="card-img-top" alt="Rice Cooker" />
-                    <div class="card-body">
-                      <h5 class="card-title">Rice Cooker</h5>
-                      <p class="card-text fs-5">Peralatan Rumah | <i class="bi bi-geo-alt-fill" style="margin-right: 10px"></i>Bandung</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card h-90">
-                    <img src="tukar_assets/TUF RTX 4090.png" class="card-img-top" alt="TUF RTX 4090" />
-                    <div class="card-body">
-                      <h5 class="card-title">TUF RTX 4090</h5>
-                      <p class="card-text fs-5">Suku Cadang| <i class="bi bi-geo-alt-fill" style="margin-right: 10px"></i>Bogor</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="box-product-footer d-flex justify-content-center">
-              <button type="button" class="btn" id="moreButton">Tampilkan Lebih Banyak</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="footer">
-      <div class="container">
-        <footer class="py-5">
-          <div class="row d-flex justify-content-between">
-            <div class="col-md-5 mb-3">
-              <form id="formFooter">
-                <h5>Daftarlah Untuk Buletin Kami</h5>
-                <p>Jadilah orang pertama yang mengetahui penawaran khusus, berita, dan pembaruan kami.</p>
-                <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                  <label for="newsletter1" class="visually-hidden">Email address</label>
-                  <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
-                  <button class="btn btn-primary" type="button">Daftar</button>
-                </div>
-              </form>
-            </div>
-
-            <div class="col-6 col-md-2 mb-3" id="linkFooter">
-              <h5>Barang Bekas</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item"><a href="#" class="nav-link p-0">Donasi</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Tukar</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Lelang</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-2 mb-3" id="linkFooter">
-              <h5>Akun</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item"><a href="#" class="nav-link p-0">Kelola Akun</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Ganti Password</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Verifikasi</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Kupon</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Reward</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-md-2 mb-3" id="linkFooter">
-              <h5>Dukungan</h5>
-              <ul class="nav flex-column">
-                <li class="nav-item"><a href="#" class="nav-link p-0">Keamanan</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Masukan</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Laporkan</a></li>
-                <li class="nav-item"><a href="#" class="nav-link p-0">Aksebilitas</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-            <p>&copy; 2023 Donatech, Infinite Learning. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-              <li class="ms-3">
-                <a class="link-body-emphasis" href="#"
-                  ><svg class="bi" width="24" height="24"><use xlink:href="#twitter" /></svg>
-                </a>
               </li>
-              <li class="ms-3">
-                <a class="link-body-emphasis" href="#"
-                  ><svg class="bi" width="24" height="24"><use xlink:href="#instagram" /></svg>
-                </a>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0" id="rightNav">
+              <li class="nav-item">
+                <a class="nav-link active" href="../Homepage/inventory.html"><i class="bi bi-bag"></i>Simpan</a>
               </li>
-              <li class="ms-3">
-                <a class="link-body-emphasis" href="#"
-                  ><svg class="bi" width="24" height="24"><use xlink:href="#facebook" /></svg>
-                </a>
+              <li class="nav-item">
+                <a class="nav-link active" href="/Profile Page/PROFILE/Profile.html"><i
+                    class="bi bi-person"></i>Akun</a>
               </li>
             </ul>
           </div>
-        </footer>
+        </div>
       </div>
-    </section>
+    </nav>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-  </body>
+  <section id="content">
+    <!-- Content Header -->
+    <div class="content-header mt-4">
+      <div class="box">
+        <p>Ayo tukarkan barangmu sekarang!</p>
+        <span class="garis"></span>
+        <p>"Barangmu berdebu, tukar dengan kebutuhanmu"</p>
+        <a href="../Homepage/formLelang.html">Tukar</a>
+      </div>
+    </div>
+
+    <!-- Content Body -->
+    <div class="content-body">
+      <div class="box d-flex justify-content-between">
+        <div class="box-filter">
+          <div class="box-filter-top d-flex justify-content-between align-items-baseline">
+            <p>Filter</p>
+            <a href="#" class="hapusFilter" id="removeFilter">Hapus Filter</a>
+          </div>
+          <div class="box-filter-content mt-1">
+            <p class="m-0">Kategori</p>
+            <hr />
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCategory" />
+                <label class="form-check-label stretched-link" for="firstCategory">Peralatan Rumah</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCategory" />
+                <label class="form-check-label stretched-link" for="secondCategory">Gadget</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCategory" />
+                <label class="form-check-label stretched-link" for="thirdCategory">Mesin Industri</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="fourthCategory" />
+                <label class="form-check-label stretched-link" for="fourthCategory">Suku Cadang</label>
+              </li>
+            </ul>
+          </div>
+          <div class="box-filter-content mt-3">
+            <p class="m-0">Ongkir</p>
+            <hr />
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstOngkir" />
+                <label class="form-check-label stretched-link" for="firstOngkir">Bebas Ongkir</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondOngkir" />
+                <label class="form-check-label stretched-link" for="secondOngkir">JNE</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdOngkir" />
+                <label class="form-check-label stretched-link" for="thirdOngkir">SiCepat</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="fourthOngkir" />
+                <label class="form-check-label stretched-link" for="fourthOngkir">Kantor Pos</label>
+              </li>
+            </ul>
+          </div>
+          <div class="box-filter-content mt-3">
+            <p class="m-0">Durasi Pengiriman</p>
+            <hr />
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstDelivery" />
+                <label class="form-check-label stretched-link" for="firstDelivery">Instant</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondDelivery" />
+                <label class="form-check-label stretched-link" for="secondDelivery">Same Day</label>
+              </li>
+            </ul>
+          </div>
+          <div class="box-filter-content mt-3">
+            <p class="m-0">Lokasi</p>
+            <hr />
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstLocation" />
+                <label class="form-check-label stretched-link" for="firstLocation">Terdekat</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondLocation" />
+                <label class="form-check-label stretched-link" for="secondLocation">Jakarta</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="thirdLocation" />
+                <label class="form-check-label stretched-link" for="thirdLocation">Bandung</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="fourthLocation" />
+                <label class="form-check-label stretched-link" for="fourthLocation">Bogor</label>
+              </li>
+            </ul>
+          </div>
+          <div class="box-filter-content mt-3">
+            <p class="m-0">Kondisi</p>
+            <hr />
+            <ul class="list-group">
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="firstCondition" />
+                <label class="form-check-label stretched-link" for="firstCondition">Bekas</label>
+              </li>
+              <li class="list-group-item">
+                <input class="form-check-input me-1" type="checkbox" value="" id="secondCondition" />
+                <label class="form-check-label stretched-link" for="secondCondition">Bergaransi</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="box-product">
+          <div class="box-product-head d-flex align-items-start justify-content-between pt-2">
+            <div class="box-product-left d-flex">
+              <p>Cari Produk</p>
+              <div class="box-search">
+                <input type="text" id="searchBar" />
+                <label for="searchBar">
+                  <i class="bi bi-search"></i>
+                </label>
+              </div>
+            </div>
+            <!-- Example split danger button -->
+            <div class="btn-group">
+              <button type="button" class="btn" id="titleButton">Urutkan dari <span
+                  id="highlight-text">Terbaru</span></button>
+              <button type="button" class="btn dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Terbaru</a></li>
+                <li><a class="dropdown-item" href="#">Paling Sering Dicari</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="box-product-content">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <a href="productpage.html" class="text-decoration-none">
+                  <div class="card h-90">
+                    <img src="tukar_assets/Macbook Air M1 2020.png" class="card-img-top" alt="macbook" />
+                    <div class="card-body">
+                      <h5 class="card-title">Macbook Air M1 2020</h5>
+                      <p class="card-text fs-5">Gadget | <i class="bi bi-geo-alt-fill"
+                          style="margin-right: 10px"></i>Jakarta</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col">
+                <div class="card h-90">
+                  <img src="tukar_assets/Mesin Cuci.png" class="card-img-top" alt="mesin cuci" />
+                  <div class="card-body">
+                    <h5 class="card-title">Mesin Cuci Sharp T70MW-PK</h5>
+                    <p class="card-text fs-5">Mesin | <i class="bi bi-geo-alt-fill"
+                        style="margin-right: 10px"></i>Bandung</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-90">
+                  <img src="tukar_assets/Mesin Pembuat Mie KT-945.png" class="card-img-top" alt="Mesin Pembuat Mie" />
+                  <div class="card-body">
+                    <h5 class="card-title">Mesin Pembuat Mie KT-945</h5>
+                    <p class="card-text fs-5">Industri | <i class="bi bi-geo-alt-fill"
+                        style="margin-right: 10px"></i>Bogor</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card -9h0">
+                  <img src="tukar_assets/Samsung Galaxy Flip Z 5G.png" class="card-img-top"
+                    alt="Samsung Galaxy Flip Z 5G" />
+                  <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy Flip Z 5G</h5>
+                    <p class="card-text fs-5">Gadget | <i class="bi bi-geo-alt-fill"
+                        style="margin-right: 10px"></i>Jakarta Utara</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-90">
+                  <img src="tukar_assets/Rice Cooker.png" class="card-img-top" alt="Rice Cooker" />
+                  <div class="card-body">
+                    <h5 class="card-title">Rice Cooker</h5>
+                    <p class="card-text fs-5">Peralatan Rumah | <i class="bi bi-geo-alt-fill"
+                        style="margin-right: 10px"></i>Bandung</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-90">
+                  <img src="tukar_assets/TUF RTX 4090.png" class="card-img-top" alt="TUF RTX 4090" />
+                  <div class="card-body">
+                    <h5 class="card-title">TUF RTX 4090</h5>
+                    <p class="card-text fs-5">Suku Cadang| <i class="bi bi-geo-alt-fill"
+                        style="margin-right: 10px"></i>Bogor</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-product-footer d-flex justify-content-center">
+            <button type="button" class="btn" id="moreButton">Tampilkan Lebih Banyak</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="footer">
+    <div class="container">
+      <footer class="py-5">
+        <div class="row d-flex justify-content-between">
+          <div class="col-md-5 mb-3">
+            <form id="formFooter">
+              <h5>Daftarlah Untuk Buletin Kami</h5>
+              <p>Jadilah orang pertama yang mengetahui penawaran khusus, berita, dan pembaruan kami.</p>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter1" class="visually-hidden">Email address</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email address" />
+                <button class="btn btn-primary" type="button">Daftar</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="col-6 col-md-2 mb-3" id="linkFooter">
+            <h5>Barang Bekas</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link p-0">Donasi</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Tukar</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Lelang</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3" id="linkFooter">
+            <h5>Akun</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link p-0">Kelola Akun</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Ganti Password</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Verifikasi</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Kupon</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Reward</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-2 mb-3" id="linkFooter">
+            <h5>Dukungan</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a href="#" class="nav-link p-0">Keamanan</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Masukan</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Laporkan</a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-0">Aksebilitas</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>&copy; 2023 Donatech, Infinite Learning. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter" />
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram" />
+                </svg>
+              </a>
+            </li>
+            <li class="ms-3">
+              <a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
