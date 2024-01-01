@@ -1,7 +1,7 @@
 body {
   width: 100%;
   background-color: #e8f9fd !important;
-  font-family: 'Public Sans', sans-serif;
+  font-family: "Public Sans", sans-serif;
 }
 
 /* NAVBAR */
@@ -11,7 +11,7 @@ body {
 
 .header {
   width: 100%;
-  background-color: #30A2FF;
+  background-color: #30a2ff;
 }
 
 .header-item {
@@ -30,7 +30,6 @@ body {
   color: #ffffff;
   font-size: 14px;
 }
-
 
 nav {
   top: 0;
@@ -62,8 +61,6 @@ nav {
   color: #212121 !important;
   font-weight: 600;
 }
-
-
 
 /* Content */
 #content {
@@ -128,11 +125,10 @@ nav {
   color: #ffffff;
 }
 
-
 .profile-side-mid {
   width: 100%;
   height: 15%;
-  background-color: #FFE7A0;
+  background-color: #ffe7a0;
   box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.25);
@@ -207,9 +203,9 @@ nav {
 #capture {
   font-size: 35px;
   position: absolute;
-  top: 380px;
-  left: 650px;
-  color: #4594d5;
+  top: 385px;
+  left: 770px;
+  color: black;
 }
 
 .profile-main-top a {
